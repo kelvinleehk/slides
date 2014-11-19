@@ -1,2 +1,2 @@
 # A Developer's Toolbox
-## Presentation Woman Who Code meetup @ 19 JUN 2014
+## Presentation Woman Who Code meetup @ 19 NOV 2014
