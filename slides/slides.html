@@ -15,10 +15,6 @@
 
     <p>Jibberish on various (x100) tools that I have found extremely useful over the years</p>
 
-    <div style="margin-left: 80px;">
-        <!--TODO: Replace with mindmap screenshot-->
-        <img src="http://lorempixel.com/600/400" alt=""/>
-    </div>
 </div>
 <hr/>
 
@@ -71,7 +67,7 @@
     and <em>technologies</em></h2>
 <hr/>
 
-<h1>Great one</h1>
+<h1>Great developer</h1>
 <h2>will write <em>clean</em>, <em>decoupled</em> and <em>recyclable</em> code in a concise manner.</h2>
 <hr/>
 
@@ -82,9 +78,109 @@
 <h2>do we do that?</h2>
 <hr/>
 
-<h1>2 tools</h1>
+<h1>2 x Tools</h1>
 <br/>
 <ul>
-    <li>Test Driven Development (TDD)</li>
+    <li>Write testable code</li>
     <li>Gitflow</li>
 </ul>
+<hr/>
+
+<h1>What is Testable Code?</h1>
+<p>
+    In short: <br/><em>Testable</em> is you code are organized in a way that can be easily tested through unit testing.
+</p>
+<hr/>
+
+<h1>What Testable Code's NOT?</h1>
+<p>Code that you need to test. (Yeah you've heard right)</p>
+
+<hr/>
+<h1>To be precise</h1>
+<p>Testable code is more a <em>design pattern</em> than a standard / requirement that keeps your code <em>clean</em>,
+    <em>decoupled</em>, <em>recyclable</em> and
+    <em>structured</em> in a concise manner.</p>
+<br/>
+<p>It's the core of Test Driven Development (TDD)</p>
+<hr/>
+
+<h1>How to make code testable?</h1>
+<hr/>
+
+<h1>How to make code testable?</h1>
+<p>
+<ul>
+    <li><em>Separation of concerns</em></li>
+    <li>Object-oriented code design</li>
+    <li><em>Loose coupling / dependency injection</em></li>
+    <li><em>Elimination of globals</em></li>
+    <li>API naming conventions</li>
+    <li>Clear code and documentation</li>
+</ul>
+</p>
+<hr/>
+
+<h1>Separation of concerns</h1>
+<p>
+    Grand example:
+    <br/>
+    <em>Model-View-Controller</em> (MVC)
+</p>
+<hr/>
+
+<h1>Separation of concerns</h1>
+<p>Imagine when you have some of your Balance Sheet function logic and calcuation somewhere inside of your view that
+    shows the report, and that you had to make some changes to the net profit calcuation in your controller logic.
+    <br/>
+    <br/>
+
+    <em>the result will always be wrong</em>!</p>
+<hr/>
+
+<h1>Separation of concerns</h1>
+<p>Not only separating the concerns will help keep code highly maintainable (you know exactly where to look instead of
+    doing a full codebase search), it will greatly help reduce code regression, thus more efficient coding workflow.
+</p>
+<hr/>
+
+<h1>Separation of concerns</h1>
+<h2> Don't try to have your functions to do too many things at the same time.</h2>
+<hr/>
+
+<h1>Loose coupling</h1>
+<h2>/ Dependency Injection</h2>
+<p>while performing unit testing, functions will be run and tested individually instead of having the whole boostrap
+    process of your site or application to run.</p>
+<p>Which means by the time the function is being tested, not all the expected dependency will be made available.</p>
+<hr/>
+
+<h1>Loose coupling</h1>
+<p>Take a look at this example</p>
+<p><img src="images/example2.jpg" alt=""/></p>
+<hr/>
+
+<h1>Loose coupling</h1>
+<p>A better example</p>
+<p><img src="images/example3.jpg" alt=""/>&nbsp;<img src="images/example4.jpg" alt=""/></p>
+<hr/>
+
+<h1>Elimination of Global Variables</h1>
+<p>There are more than often, even for the most advance framework, will use certain Gllobal Variables to help passing information from one part of the code to another.</p>
+<hr/>
+<h1>Elimination of Global Variables</h1>
+<p>While it is very, very very convenient to use Global Variables, it always comes with a great risks that the gloabl variable will get contaminated somewhere in your code.</p>
+<hr/>
+
+<h1>Elimination of Global Variables</h1>
+<p>Should be hard to see why:</p>
+<p><img src="images/example5.jpg" alt=""/></p>
+<hr/>
+
+<h1>Gitflow</h1>
+<h2>Good coder comes great responsibility</h2>
+<p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a></p>
+<hr/>
+
+<!-- END OF TDD -->
+<h1>Thank you!</h1>
+<hr/>
