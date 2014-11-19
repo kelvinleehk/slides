@@ -18,9 +18,10 @@
 	font-size: 4em;
 	font-weight: bold;
 	color: #dadada;
-	margin-bottom: 0;
+	margin-bottom: 0em;
 	letter-spacing: -.08em;
 	text-rendering: optimizeLegibility;
+    line-height: 1em;
 }
 
 .slide h2 {
