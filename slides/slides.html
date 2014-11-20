@@ -122,14 +122,6 @@
 <hr/>
 
 <h1>Separation of concerns</h1>
-<p>
-    Grand example:
-    <br/>
-    <em>Model-View-Controller</em> (MVC)
-</p>
-<hr/>
-
-<h1>Separation of concerns</h1>
 <p>Imagine when you have some of your Balance Sheet function logic and calcuation somewhere inside of your view that
     shows the report, and that you had to make some changes to the net profit calcuation in your controller logic.
     <br/>
@@ -139,14 +131,52 @@
 <hr/>
 
 <h1>Separation of concerns</h1>
+<p>
+    Grand example:
+    <br/>
+    <em>Model-View-Controller</em> (MVC)
+</p>
+<hr/>
+
+<h1>Separation of concerns</h1>
 <p>Not only separating the concerns will help keep code highly maintainable (you know exactly where to look instead of
     doing a full codebase search), it will greatly help reduce code regression, thus more efficient coding workflow.
 </p>
 <hr/>
 
 <h1>Separation of concerns</h1>
-<h2> Don't try to have your functions to do too many things at the same time.</h2>
+        <div>
+            <div style="text-align: center;float:left;width:40%">
+                <img src="images/function1.jpg" alt=""/>
+            </div>
+            <p style="float:right; width:45%;">Assume you have a function. To test it, you should have an input to the function (parameters), and you compare the function output with expected value.</p>
+        </div>
 <hr/>
+
+<h1>Separation of concerns</h1>
+<div>
+    <div style="text-align: center;float:left;width:40%">
+        <img src="images/function2.jpg" alt=""/>
+    </div>
+    <p style="float:right; width:45%;">If you put too many tasks inside 1 function, when problem occurs you will have to spend a long time to find out which "section" (if applicable) where the problem is, and create a big risk of regressing codes somewhere else along the logic.</p>
+</div>
+<hr/>
+
+
+<h1>Separation of concerns</h1>
+<div>
+    <div style="text-align: center;float:left;width:40%">
+        <img src="images/function3.jpg" alt=""/>
+    </div>
+    <p style="float:right; width:45%;">If you try separating your long function into smaller, testable functions, it will be so much easier to test and fix the problem without affecting other parts of the logic.</p>
+</div>
+<hr/>
+
+<h1>Separation of concerns</h1>
+<h2>Try to keep each of your function to do one thing and one thing only.</h2>
+<p>It may seem cumbersome at first, but it will save you endless hours of debugging one day.</p>
+<hr/>
+
 
 <h1>Loose coupling</h1>
 <h2>/ Dependency Injection</h2>
